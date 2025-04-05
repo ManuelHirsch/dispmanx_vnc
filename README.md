@@ -5,14 +5,13 @@ VNC Server for Raspberry Pi using dispmanx
 ### Dependencies
 
 * `libvncserver-dev`
-* `raspberrypi-firmware` (some distros will call this `rbp-userland-dev-osmc`)
+* ~~`raspberrypi-firmware` (some distros will call this `rbp-userland-dev-osmc`)~~
+* `libgles-dev`
+* `libomxil-dev`
 
 ### Build
 
 Compile with ./makeit or use make
-
-### Packages
-* ![logo](http://www.monitorix.org/imgs/archlinux.png "arch logo")Arch ARM: in the [AUR](https://aur.archlinux.org/packages/dispmanx_vnc).
 
 ### Notes
 If you want to use X, modprobe evdev first.\
